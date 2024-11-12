@@ -119,6 +119,4 @@ ggplot(train_data, aes(x = num_co, y = totcst)) +
   geom_point(alpha = 0.5) +
   labs(title = "Scatterplot of Number of Comorbidities vs Total Hospital Cost", x = "Number of Comorbidities", y = "Total Hospital Cost")
 
-# Optional: Save these summaries to CSV files for further review if needed
-# write.csv(train_summary, "train_summary.csv", row.names = FALSE)
-# write.csv(test_summary, "test_summary.csv", row.names = FALSE)
+
